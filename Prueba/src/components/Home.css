@@ -1,0 +1,32 @@
+.menu-container {
+    background-color: #333; /* Color de fondo del menú */
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex; /* Utiliza flexbox para distribuir los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos horizontalmente */
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Utiliza flexbox para distribuir los elementos horizontalmente */
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff; /* Color de texto de los enlaces */
+    font-size: 16px;
+    transition: color 0.3s ease; /* Transición suave del color del texto */
+  }
+  
+  .nav-link:hover {
+    color: #ffc107; /* Cambia el color del texto al pasar el cursor sobre los enlaces */
+  }
+  
